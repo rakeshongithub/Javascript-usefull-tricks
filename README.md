@@ -3,7 +3,7 @@ modulas
 
 Modulas example with table row color
 
-<pre>
+
 <table width="200">
   <tr>
     <td>1</td>
@@ -23,14 +23,11 @@ Modulas example with table row color
   </tr>
 </table>
 
-<script type="text/javascript">
+<pre>
 var colors = ['#999999','#000000','#cccccc'],
 	myTrs = document.getElementsByTagName('tr');
 	
 for(i=0, len = myTrs.length; i < len; i++){
 	myTrs[i].style.backgroundColor = colors[i % colors.length]
 }
-</script>
-
-
 </pre>
