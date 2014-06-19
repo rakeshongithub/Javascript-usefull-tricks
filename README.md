@@ -24,13 +24,12 @@ modulas
 </table>
 </pre>
 
-<pre>
-<code>
+```javascript
+
 var colors = ['#999999','#000000','#cccccc'],
     myTrs = document.getElementsByTagName('tr');
 	
 for(i=0, len = myTrs.length; i /< len; i++){
   myTrs[i].style.backgroundColor = colors[i % colors.length]
 }
-</code>
-</pre>
+```
