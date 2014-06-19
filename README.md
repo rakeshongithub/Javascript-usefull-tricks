@@ -25,9 +25,9 @@ Modulas example with table row color
 
 <pre>
 var colors = ['#999999','#000000','#cccccc'],
-	myTrs = document.getElementsByTagName('tr');
+    myTrs = document.getElementsByTagName('tr');
 	
 for(i=0, len = myTrs.length; i < len; i++){
-	myTrs[i].style.backgroundColor = colors[i % colors.length]
+  myTrs[i].style.backgroundColor = colors[i % colors.length]
 }
 </pre>
