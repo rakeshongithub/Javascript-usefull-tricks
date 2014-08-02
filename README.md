@@ -1,8 +1,7 @@
 modulas
 =======
 
-<p>Modulas example with table row color</p>
-
+<p>1. Modulas example with table row color</p>
 
 ```javascript
 
@@ -14,7 +13,7 @@ for(i=0, len = myTrs.length; i < len; i++){
 }
 ```
 
-<p>Hack to mimic console within JSFiddle</p>
+<p>2. Hack to mimic console within JSFiddle</p>
 
 ```javascript
 var consoleLine = "<div class=\"console-line\"></div>";
